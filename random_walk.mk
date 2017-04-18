@@ -1,5 +1,3 @@
-all : rand.png
-
 rand.png : random_walks.txt
 	python random_walk.py
 
